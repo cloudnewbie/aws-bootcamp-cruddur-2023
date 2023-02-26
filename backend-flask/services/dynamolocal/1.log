@@ -1,0 +1,4 @@
+CONTAINER ID   IMAGE                                         COMMAND                  CREATED          STATUS          PORTS                                       NAMES
+41816b72dc79   postgres:13-alpine                            "docker-entrypoint.s…"   53 minutes ago   Up 53 minutes   0.0.0.0:5432->5432/tcp, :::5432->5432/tcp   aws-bootcamp-cruddur-2023-db-1
+514ce43ec787   amazon/dynamodb-local:latest                  "java -jar DynamoDBL…"   53 minutes ago   Up 53 minutes   0.0.0.0:8000->8000/tcp, :::8000->8000/tcp   dynamodb-local
+5f7ca0e064c7   aws-bootcamp-cruddur-2023-frontend-react-js   "docker-entrypoint.s…"   53 minutes ago   Up 53 minutes   0.0.0.0:3000->3000/tcp, :::3000->3000/tcp   aws-bootcamp-cruddur-2023-frontend-react-js-1
